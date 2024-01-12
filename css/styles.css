@@ -545,3 +545,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.formular-form {
+  display: flex;
+  gap: 24px;
+}
