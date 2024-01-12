@@ -476,6 +476,8 @@ body {
 .fifth-svg {
   fill: currentColor;
 }
+/* modal-window */
+
 .modal {
   position: fixed;
   top: 0;
