@@ -548,10 +548,12 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--color-primary);
+  color: var(--navy-blue-color);
   margin-bottom: 16px;
 }
-
+.modal-third-elem {
+  margin-bottom: 8px;
+}
 /* formular */
 .formular-paragraph {
   margin-bottom: 16px;
