@@ -493,7 +493,9 @@
             <use href="./images/close.svg#close-black-18dp-2-1"></use>
           </svg>
         </button>
-        <p class="modal-paragraph"></p>
+        <p class="modal-paragraph">
+          Leave your contacts and we will call you back
+        </p>
         <form>
           <div class="modal-third-elem">
             <label class="modal-label" for="user-name">Name</label>
@@ -546,22 +548,24 @@
           </div>
           <div class="modal-checkbox">
             <input
-              required
-              class="visually-hidden checkbox-input"
               type="checkbox"
-              id="user-privacy"
+              class="visually-hidden checkbox-input"
               name="user-privacy"
-              value="true" />
+              value="true"
+              id="user-privacy"
+              required />
             <label class="modal-privacy-label" for="user-privacy">
-              I accept the terms and conditions of the
               <span class="modal-span"
                 ><svg class="modal-span-svg" width="10" height="8">
                   <use href="./images/icons.svg#checkbox"></use></svg
               ></span>
+              I accept the terms and conditions of the
               <a href="" class="modal-link">Privacy Policy</a>
             </label>
           </div>
-          <button class="modal-button"></button>
+          <button class="modal-button" type="submit" data-modal-open>
+            Send
+          </button>
         </form>
       </div>
     </div>
