@@ -711,11 +711,11 @@ body {
   fill: transparent;
 }
 
-/* .checkbox-input:checked + .modal-privacy-label span:first-child {
+.checkbox-input:checked + .modal-privacy-label span:first-child {
   background-color: var(--ocean-color);
   border: none;
   fill: var(--cloud-color);
-} */
+}
 
 /* formular */
 
